@@ -4,7 +4,7 @@ os.system("pip install websocket-client amino.py json_minify")
 os.system("clear") 
 import amino
 import random,names 
-from aminoimport Client
+from amino import Client
 from amino import SubClient
 from amino.lib.util.exceptions import *
 from concurrent.futures import ThreadPoolExecutor
